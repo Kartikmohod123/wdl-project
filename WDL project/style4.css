@@ -1,0 +1,56 @@
+body {
+    width: 120%;
+    height: 220%;
+    background-image:url('order backgrouind.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.Quantitybox {
+  padding-top: 4px;
+}
